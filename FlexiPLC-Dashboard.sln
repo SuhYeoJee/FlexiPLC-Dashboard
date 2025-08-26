@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36221.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlexiPLC.Core", "FlexiPLC.Core\FlexiPLC.Core.csproj", "{701E1053-4029-4EA9-8691-3061A19DBF82}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루션 항목", "{2A3A057F-5D22-31FD-628C-DF5EF75AEF1E}"
+	ProjectSection(SolutionItems) = preProject
+		config.json = config.json
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlexiPLC.Dashboard.WinForms", "FlexiPLC.Dashboard.WinForms\FlexiPLC.Dashboard.WinForms.csproj", "{D280FDBC-D10A-40A1-ABA2-945895A85470}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{701E1053-4029-4EA9-8691-3061A19DBF82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{701E1053-4029-4EA9-8691-3061A19DBF82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{701E1053-4029-4EA9-8691-3061A19DBF82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{701E1053-4029-4EA9-8691-3061A19DBF82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D280FDBC-D10A-40A1-ABA2-945895A85470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D280FDBC-D10A-40A1-ABA2-945895A85470}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D280FDBC-D10A-40A1-ABA2-945895A85470}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D280FDBC-D10A-40A1-ABA2-945895A85470}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35C56DD8-46C4-4D59-84CC-2F39CE548EF6}
+	EndGlobalSection
+EndGlobal

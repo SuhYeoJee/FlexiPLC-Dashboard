@@ -1,0 +1,22 @@
+﻿{
+  "PlcServiceTypeName": "FlexiPLC.Core.Services.Plc.Test.TestCommunicationService",
+  "ConnectionAddress": "192.168.1.10",
+  "ConnectionPort": 102,
+  "Items": [
+    {
+      "Name": "MotorStatus",
+      "Address": "DB1.DBX0.0",
+      "DataType": "bool"
+    },
+    {
+      "Name": "CurrentTemperature",
+      "Address": "DB1.DBW2",
+      "DataType": "int"
+    },
+    {
+      "Name": "ProductionCount",
+      "Address": "DB1.DBD4",
+      "DataType": "int"
+    }
+  ]
+}
