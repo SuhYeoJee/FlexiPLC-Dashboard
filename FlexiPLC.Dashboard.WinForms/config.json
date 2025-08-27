@@ -1,21 +1,21 @@
 ﻿{
-  "PlcServiceTypeName": "FlexiPLC.Core.Services.Plc.Mitsubishi.MitsubishiCommunicationService",
+  "PlcServiceTypeName": "FlexiPLC.Core.Services.Plc.Mitsubishi.McProtocolCommunicationService",
   "ConnectionAddress": "192.168.1.10",
   "ConnectionPort": 102,
   "Items": [
     {
       "Name": "MotorStatus",
-      "Address": "DB1.DBX0.0",
+      "Address": "M0",
       "DataType": "bool"
     },
     {
       "Name": "CurrentTemperature",
-      "Address": "DB1.DBW2",
+      "Address": "D100",
       "DataType": "int"
     },
     {
       "Name": "ProductionCount",
-      "Address": "DB1.DBD4",
+      "Address": "D200",
       "DataType": "int"
     }
   ]

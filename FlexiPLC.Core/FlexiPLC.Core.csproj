@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="McProtocol, Version=1.2.5.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\McProtocol.1.2.5\lib\netstandard2.0\McProtocol.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -51,7 +54,7 @@
     <Compile Include="Services\ConfigManager.cs" />
     <Compile Include="Services\PlcManager.cs" />
     <Compile Include="Services\Plc\IPlcCommunicationService.cs" />
-    <Compile Include="Services\Plc\Mitsubishi\MitsubishiCommunicationService.cs" />
+    <Compile Include="Services\Plc\Mitsubishi\McProtocolCommunicationService.cs" />
     <Compile Include="Services\Plc\Test\TestCommunicationService.cs" />
   </ItemGroup>
   <ItemGroup>
